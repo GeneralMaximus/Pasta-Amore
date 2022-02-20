@@ -1,0 +1,138 @@
+/* css document */
+
+h2 {color:#D8C6B8; background-color: rgba(0, 0, 0, .5); text-align:center;}
+
+h3 {background-color: rgba(255, 255, 255, 0.993); padding:5px; margin:auto;}
+
+/* Default font family from style sheet */
+h1, h2, h3, p, a {font-family: "Goudy Old Style Regular";}
+
+/* aligns links to center for better readability **subject to change */
+.navLinks {text-align:center;}
+
+/* Stylized first letter for mission statement and vision */
+.bigFirstLetter::first-letter {font-size:30px;}
+
+.centered {text-align: center;}
+
+/* aligns logo to center of the screen*/
+.logo {display:block; margin: left 200px; margin: right 200px;}
+
+.logoFooter {width:auto; height:90%; margin: auto;}
+
+header {background-color:#ffffff; padding:5px; margin:-10px;}
+
+p {
+    background-color: rgba(255, 255, 255, .6);
+    padding:5px;
+    margin:auto;
+    font-size:20px;
+    font-weight:bold;
+}
+
+.menu_info {
+    font-size: 16px;
+    text-indent: 2%;
+}
+
+/* background images*/
+.indexPage {
+    background: url("pastaimages\PASTAAMORE_logo.jpg") no-repeat center fixed;
+    background-size: cover; 
+}
+.menuPage {
+    background: url("pastaimages\PASTAAMORE_logo.jpg") no-repeat center fixed;
+    background-size: cover;
+}
+.aboutusPage {
+    background: url("pastaimages\PASTAAMORE_logo.jpg") no-repeat center fixed;
+    background-size: cover;
+}
+
+.container {
+    min-height: 100vh;
+    position: relative;
+}
+
+.wrap {
+    padding-bottom: 50px;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    background-color: #030303;
+    width: 100%;
+    height: 100px;    
+}  
+   
+  .fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  
+  /* Facebook */
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  /* Twitter */
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+
+  .fa-instagram {
+    background: #125688;
+    color: white;
+  }
+
+  .fa-snapchat-ghost {
+    background: #fffc00;
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  }
+
+/* nav bar*/
+ul {list-style-type:none; margin:15px; padding:0; text-align:center;}
+li {display:inline-block;}
+li a {color:#FFFFFF; padding:5px; background-color:#CF1C44;}
+/* No underline for links*/
+a {text-decoration:none; font-size:20px;}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 18%;
+  }
+  .features {
+    background: white;
+    color: gray;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .features figure {
+    margin: auto;
+    text-align: center;
+    text-transform: uppercase;
+    width: 550px;
+  }
+  
+  .features figure img {
+    border: 1px solid white;
+    border-radius: 0;
+    box-shadow: gray 0 0 10px;
+    width: 600px;
+  }
