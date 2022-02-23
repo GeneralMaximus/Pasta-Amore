@@ -35,18 +35,26 @@ p {
     text-indent: 2%;
 }
 
-/* background images*/
+/* background images for each page*/
 .indexPage {
     background: url("pastaimages\PASTAAMORE_logo.jpg") no-repeat center fixed;
     background-size: cover; 
+    background: url("pastaimages\Index Page Multiple Foods Image.jpg") no-repeat center fixed;
+    background-size: cover;
 }
 .menuPage {
     background: url("pastaimages\PASTAAMORE_logo.jpg") no-repeat center fixed;
     background-size: cover;
+    background: url("pastaimages\Pasta Menu Page pic.jpg") no-repeat center fixed;
+    background-size: 100% 100%;
 }
+
 .aboutPage {
     background: url("pastaimages\PASTAAMORE_logo.jpg") no-repeat center fixed;
     background-size: cover;
+    background: url("pastaimages\About Page Pizza Image.jpg") no-repeat center fixed;
+    background-size: cover;
+    
 }
 
 .container {
@@ -57,7 +65,7 @@ p {
 .wrap {
     padding-bottom: 50px;
 }
-
+/*footer cs code */
 footer {
     position: fixed;
     bottom: 0;
@@ -83,32 +91,40 @@ footer {
   .fa-facebook {
     background: #3B5998;
     color: white;
+    border-radius: 50%;
+    width: 1%;
   }
   
   /* Twitter */
   .fa-twitter {
     background: #55ACEE;
     color: white;
+    border-radius: 50%;
+    width: 1%;
   }
-
+  /*Instagram*/
   .fa-instagram {
     background: #125688;
     color: white;
+    border-radius: 50%;
+    width: 1%;
   }
-
+/*snapchat*/
   .fa-snapchat-ghost {
     background: #fffc00;
     color: white;
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    border-radius: 50%;
+    width: 1%;
   }
 
 /* nav bar*/
 ul {list-style-type:none; margin:15px; padding:0; text-align:center;}
 li {display:inline-block;}
-li a {color:#FFFFFF; padding:5px; background-color:#CF1C44;}
+li a {color:#FFFFFF; padding:5px; background-color:#CF1C44; border-radius: 20%;}
 /* No underline for links*/
 a {text-decoration:none; font-size:20px;}
-
+/*additional page picture adjustment information*/
 .center {
     display: block;
     margin-left: auto;
@@ -126,7 +142,7 @@ a {text-decoration:none; font-size:20px;}
   .features figure {
     margin: auto;
     text-align: center;
-    text-transform: uppercase;
+    text-transform: lowercase;
     width: 550px;
   }
   
@@ -134,5 +150,7 @@ a {text-decoration:none; font-size:20px;}
     border: 1px solid white;
     border-radius: 0;
     box-shadow: gray 0 0 10px;
-    width: 600px;
+    width: 500px;
   }
+
+ 
